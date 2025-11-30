@@ -75,7 +75,7 @@ core.register_node("myrocks:rock5", {
 	paramtype2 = "facedir",
 	pointable = true,
 	is_ground_content = true,
-	drops = "myrocks:rock 5",
+	drop = "myrocks:rock 5",
 	groups = {oddly_breakable_by_hand=2,not_in_creative_inventory=1},
 	selection_box = {
 		type = "fixed",
