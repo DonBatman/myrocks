@@ -443,7 +443,7 @@ core.register_decoration({
 })
 
 --Crafts--------------------------------------------------
-minetest.register_craft({
+core.register_craft({
 	output = "default:pick_stone",
 	recipe ={
 			{"myrocks:rock","myrocks:rock","myrocks:rock"},
@@ -451,7 +451,7 @@ minetest.register_craft({
 			{"","default:stick",""},
 			}
 })
-minetest.register_craft({
+core.register_craft({
 	output = "default:pick_stone",
 	recipe ={
 			{"myrocks:rock2","myrocks:rock2","myrocks:rock2"},
@@ -459,7 +459,7 @@ minetest.register_craft({
 			{"","default:stick",""},
 			}
 })
-minetest.register_craft({
+core.register_craft({
 	output = "default:pick_stone",
 	recipe ={
 			{"myrocks:rock3","myrocks:rock3","myrocks:rock3"},
@@ -467,7 +467,7 @@ minetest.register_craft({
 			{"","default:stick",""},
 			}
 })
-minetest.register_craft({
+core.register_craft({
 	output = "default:pick_stone",
 	recipe ={
 			{"myrocks:rock4","myrocks:rock4","myrocks:rock4"},
@@ -476,7 +476,7 @@ minetest.register_craft({
 			}
 })
 
-minetest.register_craft({
+core.register_craft({
 	output = "default:sword_stone",
 	recipe ={
 			{"","myrocks:rock",""},
@@ -484,7 +484,7 @@ minetest.register_craft({
 			{"","default:stick",""},
 			}
 })
-minetest.register_craft({
+core.register_craft({
 	output = "default:sword_stone",
 	recipe ={
 			{"","myrocks:rock2",""},
@@ -492,7 +492,7 @@ minetest.register_craft({
 			{"","default:stick",""},
 			}
 })
-minetest.register_craft({
+core.register_craft({
 	output = "default:sword_stone",
 	recipe ={
 			{"","myrocks:rock3",""},
@@ -500,7 +500,7 @@ minetest.register_craft({
 			{"","default:stick",""},
 			}
 })
-minetest.register_craft({
+core.register_craft({
 	output = "default:sword_stone",
 	recipe ={
 			{"","myrocks:rock4",""},
@@ -509,7 +509,7 @@ minetest.register_craft({
 			}
 })
 
-minetest.register_craft({
+core.register_craft({
 	output = "default:shovel_stone",
 	recipe ={
 			{"","myrocks:rock",""},
@@ -517,7 +517,7 @@ minetest.register_craft({
 			{"","default:stick",""},
 			}
 })
-minetest.register_craft({
+core.register_craft({
 	output = "default:shovel_stone",
 	recipe ={
 			{"","myrocks:rock2",""},
@@ -525,7 +525,7 @@ minetest.register_craft({
 			{"","default:stick",""},
 			}
 })
-minetest.register_craft({
+core.register_craft({
 	output = "default:shovel_stone",
 	recipe ={
 			{"","myrocks:rock3",""},
@@ -533,7 +533,7 @@ minetest.register_craft({
 			{"","default:stick",""},
 			}
 })
-minetest.register_craft({
+core.register_craft({
 	output = "default:shovel_stone",
 	recipe ={
 			{"","myrocks:rock4",""},
@@ -542,7 +542,7 @@ minetest.register_craft({
 			}
 })
 
-minetest.register_craft({
+core.register_craft({
 	output = "default:axe_stone",
 	recipe ={
 			{"myrocks:rock","myrocks:rock",""},
@@ -550,7 +550,7 @@ minetest.register_craft({
 			{"","default:stick",""},
 			}
 })
-minetest.register_craft({
+core.register_craft({
 	output = "default:axe_stone",
 	recipe ={
 			{"myrocks:rock","myrocks:rock2",""},
@@ -558,7 +558,7 @@ minetest.register_craft({
 			{"","default:stick",""},
 			}
 })
-minetest.register_craft({
+core.register_craft({
 	output = "default:axe_stone",
 	recipe ={
 			{"myrocks:rock","myrocks:rock3",""},
@@ -566,7 +566,7 @@ minetest.register_craft({
 			{"","default:stick",""},
 			}
 })
-minetest.register_craft({
+core.register_craft({
 	output = "default:axe_stone",
 	recipe ={
 			{"myrocks:rock","myrocks:rock4",""},
@@ -575,7 +575,7 @@ minetest.register_craft({
 			}
 })
 
-minetest.register_craft({
+core.register_craft({
 	output = "farming:hoe_stone",
 	recipe ={
 			{"myrocks:rock","myrocks:rock",""},
@@ -583,7 +583,7 @@ minetest.register_craft({
 			{"","default:stick",""},
 			}
 })
-minetest.register_craft({
+core.register_craft({
 	output = "farming:hoe_stone",
 	recipe ={
 			{"myrocks:rock","myrocks:rock2",""},
@@ -591,7 +591,7 @@ minetest.register_craft({
 			{"","default:stick",""},
 			}
 })
-minetest.register_craft({
+core.register_craft({
 	output = "farming:hoe_stone",
 	recipe ={
 			{"myrocks:rock","myrocks:rock3",""},
@@ -599,7 +599,7 @@ minetest.register_craft({
 			{"","default:stick",""},
 			}
 })
-minetest.register_craft({
+core.register_craft({
 	output = "farming:hoe_stone",
 	recipe ={
 			{"myrocks:rock","myrocks:rock4",""},
